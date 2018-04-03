@@ -2,7 +2,7 @@
 
 let apiUrl
 const apiUrls = {
-  production: 'https://boiling-reef-72390.herokuapp.com/',
+  production: 'https://bcameron1489.github.io/google-geocoder-client/',
   development: 'http://localhost:4741'
 }
 
