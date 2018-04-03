@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>My Geocoder App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Do not add `link` tags-->
+      <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+      <!-- Do not add `script` tags-->
+      <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
+      <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
+    </head>
+    <body class="container-fluid">
+        <div class="container">
+          <h2 id="text-center">Enter Location: </h2>
+            <form id="location-form">
+              <input type="text" id="location-input" class="form-control form-control-lg">
+              <br>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+          <div class="locations">
+          </div>
+          <div class="geometry">
+          </div>
+        </div>
+    </body>
+</html>
