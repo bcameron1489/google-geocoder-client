@@ -11,7 +11,19 @@
       <script src="public/vendor.js" type="text/javascript" charset="utf-8" defer></script>
       <script src="public/application.js" type="text/javascript" charset="utf-8" defer></script>
     </head>
-    <body>
-      <h1>Browser Template</h1>
+    <body class="container-fluid">
+      <h1>Geocode</h1>
+        <div class="container">
+          <h2 id="text-center">Enter Location: </h2>
+            <form id="location-form">
+              <input type="text" id="location-input" class="form-control form-control-lg">
+              <br>
+              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+            </form>
+          <div class="locations">
+          </div>
+          <div class="geometry">
+          </div>
+        </div>
     </body>
 </html>
